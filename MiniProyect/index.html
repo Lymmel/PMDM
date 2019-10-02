@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Warehouse Persons</title>
+    <link rel=stylesheet type="text/css" href="Person.css">
+</head>
+
+<body>
+    <script src="Person.js"></script>
+    <div id="form">
+    <form id="myform" action="" method="get" onsubmit="return validaFormulario(this)">
+        <h2>Data Warehouse Persons</h2>
+        <legend><strong>Introduce los datos:</strong></legend>
+        <fieldset>
+            <input type="text" id="Name" name="Name" placeholder="Name"><br><br>
+            <input type="text" id="Age" name="Age" placeholder="Age"><br><br>
+            
+            
+            <input type="button" id="Add" name="Add" value="Add" onclick="addPerson(this)"><br><br>
+            <input type="button" id="Printf" name="Printf" value="Printf" onclick="printf(this)"><br><br>
+        </fieldset>
+    </form>
+    </div>  
+</body>
+</html>
+
+
+
