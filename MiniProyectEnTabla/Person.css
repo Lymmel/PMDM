@@ -1,0 +1,24 @@
+#Name{
+    border: 3px solid black;
+}
+
+#Age{
+    border: 3px solid black;
+}
+
+
+#Add{
+    background-color:cadetblue;
+    border: 3px solid black;
+    color:white;
+    }
+
+#Printf{
+        background-color:cadetblue;
+        border: 3px solid black;
+        color:white;
+        }
+
+table, th, tr, td{
+    border: 1px solid black;
+}
